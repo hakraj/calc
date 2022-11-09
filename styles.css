@@ -1,0 +1,68 @@
+html,body {
+	min-height: 100vh;
+	overflow: auto;
+}
+
+body {
+    background-image: url("images/maths-wallpaper.webp");
+    backdrop-filter: blur(4px);
+    margin: 0;
+    text-align: center;
+
+}
+
+#displayNumero {
+    font-size: 2.5rem;
+}
+
+button {
+    margin-top: 0.5rem;
+}
+
+.calc {
+    margin: 5rem 0 7rem;
+}
+
+.display {
+    border: solid 1px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    height: 7rem;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+@media (min-width: 675px) {
+    .calc {
+        margin: 5rem auto 10rem;
+        width: 675px;
+    }
+}
+
+.copyright {
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
+.calc-text {
+    color: #EEEADE;
+    text-align: left;
+    margin: 1rem;
+}
